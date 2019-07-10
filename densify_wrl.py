@@ -49,3 +49,6 @@ for i in range(obj_count):
     
     Points.append(densifyV)
     
+
+    np.savez('data.npz',points=Points)
+    
